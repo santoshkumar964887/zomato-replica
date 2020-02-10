@@ -1,1 +1,855 @@
-<!-- In this file you are going to write html code -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css\style.css" />
+    <title>ZOMATO-REPLICA</title>
+  </head>
+
+  <body>
+    <header class="header-container">
+      <div>
+        <ul class="ul1">
+          <li class="nav_item_1">
+            <a href="#"><img class="cl1" src="images/logo2.png" alt="" />
+              <span> Order Food</span></a>
+          </li>
+          <li class="nav_item_2">
+            <a href="#"><img class="cl1" src="images/logo3.png" alt="" />
+              <span>Book a Table</span>
+            </a>
+          </li>
+          <li class="nav_item_3">
+            <a href="#">
+              <img class="cl1" src="images/logo4.png" alt="" /><span>
+                Zomato Gold</span></a>
+          </li>
+        </ul>
+        <li class="li1">
+          <a href="#"><img class="cl1" src="images/logo1.png" alt="" /><span
+              class="cl2">
+              Get the app</span></a>
+        </li>
+      </div>
+    </header>
+    <!--    search_bar and logo-->
+    <section class="banner">
+      <div class="div1">
+        <a href="#"><span class="sp1" id="id2">Create an account</span></a>
+        <a href="#"><span class="sp1"> Log in</span></a>
+      </div>
+      <img class="zomatologo" src="images/zomatologo.PNG" alt="" />
+      <p>Find the best restaurants, cafés, and bars in Mumbai</p>
+      <div class="con1">
+        <select class="cl3">
+          <option value="volvo">Mumbai</option>
+          <option value="saab">Varanasi</option>
+          <option value="opel">Ayodhya</option>
+          <option value="audi">Delhi</option>
+        </select>
+        <div class="search-restaurant">
+          <input type="text" id="search-res" placeholder="Search for restaurants or cuisines..." />
+        </div>
+        <button class="search-btn">Search</button>
+      </div>
+    </section>
+    <!--------------------Collection & order Food Online------------------------------------->
+    <section class="cl9">
+      <section class="collection">
+        <div class="cl5">
+          <img src="images\ad-zomaland.jpeg" alt="" class="img2" />
+          <h3 class="h3">Collection</h3>
+          <p id="p3">
+            Explore Curated lists of top Restaurant,cafes,pubs,and bars in
+            Mumbai,Based on trends
+          </p>
+
+          <div class="row"  style="background-image:linear-gradient(rgb(243, 243, 243),rgba(179, 178, 178,0.35)); ">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <a href="#">
+                    <img class="cl4" src="images\trending.jpg" alt="" />
+                    <h3>Trending This week</h3>
+                    <p class="card-text">
+                      Most popular restaurant in town this week
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <a href="#">
+                    <img class="cl4" src="images\mumbai.jpg" alt="" />
+                    <h3>Best Of Mumbai</h3>
+                    <p class="card-text">
+                      This hunt for the highest rated restaurant in your city.
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <a href="#">
+                    <img class="cl4" src="images\trending.jpg" alt="" />
+                    <h3>Trending This week</h3>
+                    <p class="card-text">
+                      Most popular resturant in town this week
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <a href="#">
+                    <img class="cl4" src="images\trending.jpg" alt="" />
+                    <h3>Trending This week</h3>
+                    <p class="card-text">
+                      Most popular restaurant in town this week
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="widget">
+          <h2 class="cl7">Order Food Online</h2>
+          <p>Best restaurants delivering to your doorstep</p>
+          <div class="cl6">
+            <h4>Enter your delivery location</h4>
+            <input type="text" class="search-del" placeholder="Type delivery location here" />
+            <button class="detect-btn">Detect</button><br>
+            <button class="order-btn">Order Food Online!</button>
+
+            
+
+          </div>
+          <p>Use code ZOMATO to get up to 50% OFF. T&Cs apply.</p>
+
+        </div>
+
+        <!-------------------------- have access to quick searches based on food type---------------------------------->
+        <section class="categories">
+          <h2 id="cat-title">Quick Searches</h2>
+          <p id="cat-subtitle">Discover restaurants by type of meal</p>
+          <ul id="category-list">
+            <li><a href="#"><img  class="cla1" src="images\delivery.png" alt="">
+            <div>Delivery</div>
+            </a>
+          </li>
+            <li><a href="#"><img  class="cla1" src="images\pocket-friendly-delivery.png" alt="">
+              <div>Pocket Friendly Delivery</div>
+            </a>
+          </li>
+            <li><a href="#"><img class="cla1"  src="images\breakfast.png" alt="">
+              <div>Breakfast</div>
+            </a>
+          </li>
+            <li><a href="#"><img  class="cla1" src="images\lunch.png" alt="">
+              <div>Lunch</div>
+            </a>
+          </li>
+            <li><a href="#"><img  class="cla1" src="images\dinner.png" alt="">
+              <div>Dinner</div>
+            </a>
+          </li>
+            <li><a href="#"><img  class="cla1" src="images\drinks.png" alt="">
+              <div>Drinks</div>
+            </a>
+          </li>
+            <li><a href="#"><img  class="cla1" src="images\cafes.png" alt="">
+              <div>Cafes</div>
+            </a>
+          </li>
+            <li><a href="#"><img  class="cla1" src="images\desserts.png" alt="">
+              <div>Desserts</div>
+            </a>
+          </li>
+
+          </ul>
+        </section>
+
+        <!------------------popular localities------------------------>
+        <section class="localities">
+          <h2 id="loc-title">Popular localities in and around Your location</h2>
+          <p id="loc-subtitle">Explore restaurants, bars, and cafés by locality</p>
+          <ul class="locality-list">
+
+
+
+
+
+
+            <div class="row">
+              <div class="di1">
+                    <a class="col-l-1" title="Restaurants in Lower Parel"
+                      href="https://www.zomato.com/mumbai/lower-parel-restaurants">
+                      Lower Parel <span class="grey-text hide-on-mobile">(493
+                        places)</span>
+                    </a>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Borivali West"
+                        href="https://www.zomato.com/mumbai/borivali-west-restaurants">
+                        Borivali West <span class="grey-text hide-on-mobile">(617
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Borivali West"
+                        href="https://www.zomato.com/mumbai/borivali-west-restaurants">
+                        Borivali West <span class="grey-text hide-on-mobile">(617
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Bandra Kurla Complex"
+                        href="https://www.zomato.com/mumbai/bandra-kurla-complex-restaurants">
+                        Bandra Kurla Complex <span class="grey-text
+                          hide-on-mobile">(132 places)</span>
+                      </a></div>
+                    <div>
+                      <a class="col-l-1by3 col-s-8 pbot0" title="Restaurants in
+                        Bandra Kurla Complex"
+                        href="https://www.zomato.com/mumbai/bandra-kurla-complex-restaurants">
+                        Bandra Kurla Complex <span class="grey-text
+                          hide-on-mobile">(132 places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Khar"
+                        href="https://www.zomato.com/mumbai/khar-restaurants">
+                        Khar <span class="grey-text hide-on-mobile">(357 places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Pali Hill, Bandra West"
+                        href="https://www.zomato.com/mumbai/pali-hill-bandra-west-restaurants">
+                        Pali Hill, Bandra West <span class="grey-text
+                          hide-on-mobile">(197 places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Chembur"
+                        href="https://www.zomato.com/mumbai/chembur-restaurants">
+                        Chembur <span class="grey-text hide-on-mobile">(728
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Marol"
+                        href="https://www.zomato.com/mumbai/marol-restaurants">
+                        Marol <span class="grey-text hide-on-mobile">(395
+                          places)</span>
+                      </a></div>
+                  </div>
+
+              <div class="di1">
+                
+                    <a class="col-l-1by3 col-s-8 pbot0" title="Restaurants in
+                      Powai"
+                      href="https://www.zomato.com/mumbai/powai-restaurants">
+                      Powai <span class="grey-text hide-on-mobile">(637 places)</span>
+                    </a>
+                    <div>
+                      <a class="col-l-1by3 col-s-8 pbot0" title="Restaurants in
+                        Vashi"
+                        href="https://www.zomato.com/mumbai/vashi-restaurants">
+                        Vashi <span class="grey-text hide-on-mobile">(592
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Vashi"
+                        href="https://www.zomato.com/mumbai/vashi-restaurants">
+                        Vashi <span class="grey-text hide-on-mobile">(592
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Vashi"
+                        href="https://www.zomato.com/mumbai/vashi-restaurants">
+                        Vashi <span class="grey-text hide-on-mobile">(592
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Fort"
+                        href="https://www.zomato.com/mumbai/fort-restaurants">
+                        Fort <span class="grey-text hide-on-mobile">(281 places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Veera Desai Area"
+                        href="https://www.zomato.com/mumbai/veera-desai-area-restaurants">
+                        Veera Desai Area <span class="grey-text hide-on-mobile">(106
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Goregaon East"
+                        href="https://www.zomato.com/mumbai/goregaon-east-restaurants">
+                        Goregaon East <span class="grey-text hide-on-mobile">(446
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Mira Road"
+                        href="https://www.zomato.com/mumbai/mira-road-restaurants">
+                        Mira Road <span class="grey-text hide-on-mobile">(1052
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Panch Pakhadi, Thane West"
+                        href="https://www.zomato.com/mumbai/panch-pakhadi-thane-west-restaurants">
+                        Panch Pakhadi, Thane West <span class="grey-text
+                          hide-on-mobile">(162 places)</span>
+                      </a></div>
+                  </div>
+               
+              <div class="di1">
+                
+                    <a class="col-l-1by3 col-s-8 pbot0" title="Restaurants in
+                      Malad West"
+                      href="https://www.zomato.com/mumbai/malad-west-restaurants">
+                      Malad West <span class="grey-text hide-on-mobile">(973
+                        places)</span>
+                    </a>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Juhu"
+                        href="https://www.zomato.com/mumbai/juhu-restaurants">
+                        Juhu <span class="grey-text hide-on-mobile">(357 places)</span>
+                      </a></div>
+                    <div>
+                      <a class="col-l-1by3 col-s-8 pbot0" title="Restaurants in
+                        Andheri Lokhandwala, Andheri West"
+                        href="https://www.zomato.com/mumbai/andheri-lokhandwala-andheri-west-restaurants">
+                        Andheri Lokhandwala, Andheri... <span class="grey-text
+                          hide-on-mobile">(445 places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Colaba"
+                        href="https://www.zomato.com/mumbai/colaba-restaurants">
+                        Colaba <span class="grey-text hide-on-mobile">(200
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Linking Road, Bandra West"
+                        href="https://www.zomato.com/mumbai/linking-road-bandra-west-restaurants">
+                        Linking Road, Bandra West <span class="grey-text
+                          hide-on-mobile">(126 places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Worli"
+                        href="https://www.zomato.com/mumbai/worli-restaurants">
+                        Worli <span class="grey-text hide-on-mobile">(285
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Sakinaka"
+                        href="https://www.zomato.com/mumbai/sakinaka-restaurants">
+                        Sakinaka <span class="grey-text hide-on-mobile">(236
+                          places)</span>
+                      </a></div>
+                    <div><a class="col-l-1by3 col-s-8 pbot0" title="Restaurants
+                        in Mulund West"
+                        href="https://www.zomato.com/mumbai/mulund-west-restaurants">
+                        Mulund West <span class="grey-text hide-on-mobile">(440
+                          places)</span>
+                      </a></div>
+                  </div>
+
+            </div>
+          </ul>
+        </section>
+
+        <!---------------------------Get the Zomato App---------------------->
+        <section class="cl13">
+          <img class="cl14" src="images\iphone.png" alt="" />
+          <h2>Get the Zomato App</h2>
+          <p>See menus and photos for nearby restaurants and bookmark your
+            favorite places on the go</p>
+          <h5>We'll send you a link, open it on your phone to download the app</h5>
+          <div class="input-group mb-3" id="id6">
+            <div class="input-group-prepend">
+              <span class="input-group-text">+91</span>
+            </div>
+            <input type="number" class="form-control" placeholder="Enter phone
+              number">
+            <div class="input-group-append">
+              <span class="input-group-text" id="id7">Text App Link</span>
+            </div>
+          </div>
+
+
+
+          <div class="input-group mb-3" id="id6">
+            <input type="text" class="form-control" placeholder="Enter your
+              Email id" id="demo" name="email">
+            <div class="input-group-append">
+              <span class="input-group-text" id="id7">Email App Link</span>
+            </div>
+          </div>
+
+          <img id="id9" src="images\applestore.png" alt="" />
+          <img id="id9" src="images\googleplay.png" alt="" />
+        </section>
+
+
+
+
+
+
+        <section class="wrapper ptop ta-center mbot2">
+          <div class="milion">
+            <div>
+              <div class="value">24</div>
+              <div class="label">COUNTRIES</div>
+            </div>
+            <div>
+              <div class="value">1.5M</div>
+              <div class="label">RESTAURANTS</div>
+            </div>
+            <div>
+              <div class="value">120M</div>
+              <div class="label">FOODIES EVERY MONTH</div>
+            </div>
+            <div>
+              <div class="value">30M</div>
+              <div class="label">PHOTOS</div>
+            </div>
+            <div>
+              <div class="value">10M</div>
+              <div class="label">REVIEWS</div>
+            </div>
+            <div>
+              <div class="value">18M</div>
+              <div class="label">BOOKMARKS</div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+      </section>
+    </section>
+
+
+    <!-------------------------------Footer area---------------------------------------------------->
+    <footer>
+      <div class="footer-wrapper">
+
+
+
+
+
+
+
+
+
+        <div class="row1">
+          <img class="zom" src="images/zomatologo.PNG" alt="" />
+          <select name="" id="" class="cl21">
+            <option value=""><a class="item" href="#">English</a></option>
+            <option value=""><a class="item" href="#">Español</a></option>
+            <option value=""><a class="item" href="#">हिंदी</a></option>
+            <option value=""><a class="item" href="#">Indonesian</a></option>
+            <option value=""><a class="item" href="#">Italian</a></option>
+            <option value=""><a class="item" href="#">Polish</a></option>
+            <option value=""><a class="item" href="#1">Português (BR)</a></option>
+            <option value=""><a class="item" href="#">Português (PT)</a></option>
+            <option value=""><a class="item" href="#">Slovenčina</a></option>
+            <option value=""><a class="item" href="#">Türkçe</a></option>
+            <option value=""><a class="item" href="#">Vietnamese</a></option>
+          </select>
+          
+
+          <section class="cl23">
+
+            <hr class="new1">
+
+
+            <div class="ro1">
+              <div>
+                <h3>About Zomato</h3>
+                <ul class="ul5">
+                  <li>
+                    <a href="https://www.zomato.com/about" target="_blank">
+                      About Us
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://culture.zomato.com" target="_blank">
+                      Culture
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://zomato.com/blog" target="_blank">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.zomato.com/careers" target="_blank">
+                      Careers
+                    </a>
+                  </li>
+                  <li class="contact-big-footer-link">
+                    <a href="https://www.zomato.com/contact" target="_blank">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3>For Foodies</h3>
+                <ul class="ul5">
+                  <li>
+                    <a href="https://www.zomato.com/policies">
+                      Code of Conduct
+                    </a>
+                  </li>
+                  <li>
+                    <a href="http://community.zomato.com">
+                      Community
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.zomato.com/verified">
+                      Verified Users
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.zomato.com/bloggers">
+                      Blogger Help
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://developers.zomato.com">
+                      Developers
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.zomato.com/mobile">
+                      Mobile Apps
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+
+
+              <div>
+                <h3>For Restaurants</h3>
+                    <ul class="ul5">
+                      <li>
+                        <a href="https://www.zomato.com/addrestaurant">
+                          Add a Restaurant
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.zomato.com/business">
+                          Claim your Listing
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.zomato.com/business/apps">
+                          Business App
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.zomato.com/guidelines/merchant">
+                          Business Owner Guidelines
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://business-blog.zomato.com/">
+                          Business Blog
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.zomato.com/business/widgets">
+                          Restaurant Widgets
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.zomato.com/business">
+                          Products for Businesses
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3>More About</h3>
+                    <ul class="ul5">
+                      
+                     
+                      <li>
+                        <a href="https://www.zomato.com/business/advertise">
+                          Advertise
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.zomato.com/business/order">
+                          Order
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.zomato.com/book">
+                          Book
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.zomato.com/trace">
+                          Trace
+                        </a>
+                      </li>
+                      <li>
+                        <a class="all_web_jumbo_click_track"
+                          data-total_jumbo_click_payload="[{&quot;table&quot;:&quot;jevent&quot;,&quot;payload&quot;:{&quot;ename&quot;:&quot;hyperpure_footer_link&quot;,&quot;var1&quot;:128807460}}]"
+                          href="https://hyperpure.com/">
+                          Hyperpure
+                        </a>
+                      </li>
+                    </ul>
+                
+                  </div>
+              </div>
+            
+
+            <hr class="new1">
+            <!------------------------Countries------------------------------->
+
+            <div class="cl25">
+              <h3>Countries</h3>
+              <div class="ro">
+
+                <div>
+                  <ul class="ul6">
+                    <li>
+                      <a class="pl5" title="Restaurants in Australia"
+                        href="https://www.zomato.com/australia">
+                        Australia
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a class="pl5" title="Restaurants in Brasil"
+                        href="https://www.zomato.com/brasil">
+                        Brasil
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a class="pl5" title="Restaurants in Canada"
+                        href="https://www.zomato.com/canada">
+                        Canada
+                      </a>
+                    </li>
+
+
+                    <li>
+                      <a class="pl5" title="Restaurants in Chile"
+                        href="https://www.zomato.com/chile">
+                        Chile
+                      </a>
+                    </li>
+
+                    <li>
+                      <a class="pl5" title="Restaurants in Czech Republic"
+                        href="https://www.zomato.com/czech-republic">
+                        Czech Republic
+                      </a>
+                    </li>
+
+                  </div>
+                  <div>
+                    <ul class="ul6">
+                      <li>
+                        <a class="pl5" title="Restaurants in India"
+                          href="https://www.zomato.com/india">
+                          India
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Indonesia"
+                          href="https://www.zomato.com/indonesia">
+                          Indonesia
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Ireland"
+                          href="https://www.zomato.com/ireland">
+                          Ireland
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Italy"
+                          href="https://www.zomato.com/italy">
+                          Italy
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Lebanon"
+                          href="https://www.zomato.com/lebanon">
+                          Lebanon
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul class="ul6">
+                      <li>
+                        <a class="pl5" title="Restaurants in Malaysia"
+                          href="https://www.zomato.com/malaysia">
+                          Malaysia
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in New Zealand"
+                          href="https://www.zomato.com/newzealand">
+                          New Zealand
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Philippines"
+                          href="https://www.zomato.com/philippines">
+                          Philippines
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Poland"
+                          href="https://www.zomato.com/poland">
+                          Poland
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Portugal"
+                          href="https://www.zomato.com/portugal">
+                          Portugal
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul class="ul6">
+                      <li>
+                        <a class="pl5" title="Restaurants in Qatar"
+                          href="https://www.zomato.com/qatar">
+                          Qatar
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Singapore"
+                          href="https://www.zomato.com/singapore-country">
+                          Singapore
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Slovakia"
+                          href="https://www.zomato.com/slovakia">
+                          Slovakia
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in South Africa"
+                          href="https://www.zomato.com/southafrica">
+                          South Africa
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in Sri Lanka"
+                          href="https://www.zomato.com/srilanka">
+                          Sri Lanka
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <ul class="ul6">
+                      <li>
+                        <a class="pl5" title="Restaurants in Turkey"
+                          href="https://www.zomato.com/turkey">
+                          Turkey
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in UAE"
+                          href="https://www.zomato.com/uae">
+                          UAE
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in United Kingdom"
+                          href="https://www.zomato.com/uk">
+                          United Kingdom
+                        </a>
+                      </li>
+
+                      <li>
+                        <a class="pl5" title="Restaurants in United States"
+                          href="https://www.zomato.com/united-states">
+                          United States
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+
+            </section>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+      </footer>
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    </body>
+
+  </html>

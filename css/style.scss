@@ -83,7 +83,7 @@ a {
   .con1 {
     display: flex;
     justify-content: center;
-    #search-res {
+    #search-rest {
       border-radius: 20px;
       padding: 3px;
       padding-left: 20px;
@@ -157,7 +157,7 @@ a {
 }
 .cl6 {
   margin: 2rem;
-  .search-del {
+  #search-del {
     border-radius: 5px;
     padding-left: 20px;
     margin: 20px 10px 20px 0px;
@@ -194,7 +194,7 @@ a {
 .categories {
   clear: both;
   margin: 35px;
-  #category-list {
+  .category-list {
     background-color: white;
     list-style: none;
     display: flex;
@@ -429,7 +429,7 @@ hr.new1 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      #search-res {
+      #search-rest {
         border-radius: 5px;
         padding: 5px;
         padding-left: 20px;
@@ -546,7 +546,7 @@ hr.new1 {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      #search-res {
+      #search-rest {
         border-radius: 5px;
         padding: 5px;
         padding-left: 20px;
@@ -564,7 +564,7 @@ hr.new1 {
         margin: 15px;
         margin-left: 1px;
         height: 35px;
-        width: 340px;
+        width: 335px;
         border-radius: 5px;
         background-color: #cb202d;
         &:hover {
@@ -603,7 +603,7 @@ hr.new1 {
     background-color: white;
   }
   .widget {
-    .search-del {
+    #search-del {
       width: 190px;
     }
     .order-btn {

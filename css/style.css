@@ -71,7 +71,7 @@ a {
   .banner .con1 {
     display: flex;
     justify-content: center; }
-    .banner .con1 #search-res {
+    .banner .con1 #search-rest {
       border-radius: 20px;
       padding: 3px;
       padding-left: 20px;
@@ -129,7 +129,7 @@ a {
 
 .cl6 {
   margin: 2rem; }
-  .cl6 .search-del {
+  .cl6 #search-del {
     border-radius: 5px;
     padding-left: 20px;
     margin: 20px 10px 20px 0px;
@@ -159,16 +159,16 @@ a {
 .categories {
   clear: both;
   margin: 35px; }
-  .categories #category-list {
+  .categories .category-list {
     background-color: white;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     border-radius: 5px; }
-    .categories #category-list li {
+    .categories .category-list li {
       margin: 30px; }
-      .categories #category-list li .cla1 {
+      .categories .category-list li .cla1 {
         width: 80px; }
 
 .cl10 {
@@ -358,7 +358,7 @@ hr.new1 {
       flex-direction: column;
       justify-content: center;
       align-items: center; }
-      .banner .con1 #search-res {
+      .banner .con1 #search-rest {
         border-radius: 5px;
         padding: 5px;
         padding-left: 20px;
@@ -454,7 +454,7 @@ hr.new1 {
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-    .banner .con1 #search-res {
+    .banner .con1 #search-rest {
       border-radius: 5px;
       padding: 5px;
       padding-left: 20px;
@@ -470,7 +470,7 @@ hr.new1 {
       margin: 15px;
       margin-left: 1px;
       height: 35px;
-      width: 340px;
+      width: 335px;
       border-radius: 5px;
       background-color: #cb202d; }
       .banner .con1 .search-btn:hover {
@@ -504,7 +504,7 @@ hr.new1 {
     width: 240px;
     background-color: white; }
 
-  .widget .search-del {
+  .widget #search-del {
     width: 190px; }
   .widget .order-btn {
     width: 260px; }

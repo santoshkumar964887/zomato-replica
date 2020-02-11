@@ -296,6 +296,8 @@ hr.new1 {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
   .h-container {
+    display: inline;
+    float: right;
     background-color: white;
     height: 100px; }
 
@@ -306,7 +308,7 @@ hr.new1 {
   .ul1 {
     display: block;
     list-style: none;
-    padding: 15px; }
+    padding: 5px; }
     .ul1 a {
       padding: 15px;
       margin: 25px;
@@ -316,11 +318,13 @@ hr.new1 {
         vertical-align: baseline; }
 
   .li1 {
+    float: left;
     margin: 10px;
     padding-top: 30px;
     list-style-type: none; }
 
   .banner {
+    clear: both;
     background-image: url("../images/bg.jpg");
     background-size: cover; }
     .banner .div1 {

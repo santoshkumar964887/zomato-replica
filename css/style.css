@@ -295,7 +295,7 @@ hr.new1 {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-  .header-container {
+  .h-container {
     background-color: white;
     height: 100px; }
 
